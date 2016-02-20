@@ -67,7 +67,7 @@ atestLocal("05:31:56", "very long")
 ```
 
 ## Now, serialize it(and, maybe, save into Bolt.DB)
-```
+```go
 b := BayesMemory{}
 b.Train(splitmin("Dogs are awesome, cats too. I love my dog"), []string{"dog"})
 b.Train(splitmin("Cats are more preferred by software developers. I never could stand cats. I have a dog"), []string{"cat"})
