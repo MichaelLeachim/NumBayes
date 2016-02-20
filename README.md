@@ -2,7 +2,7 @@
 
 # Feutures:
 * Reasonbly, well tested
-* Build for development. Serialization is simple.
+* Built for development. Serialization is simple.
 * Storage is up to developer.
 * Tokenization is up to developer. Better use Snowball stemming, or smth. like this.
 
