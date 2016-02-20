@@ -1,14 +1,14 @@
 # Numerical bayes is an implementation of NB classifier that takes into account continuous data.
-Useful when you are dealing with data that is difficult to use before calculat
+
 # Feutures:
 * Reasonbly, well tested
 * Build for development. Serialization is simple.
-** Storage is up to developer.
-** Tokenization is up to developer. Better use Snowball stemming, or smth. like this.
+* Storage is up to developer.
+* Tokenization is up to developer. Better use Snowball stemming, or smth. like this.
 
 ## Try to use some numeric data. For example, ages.
 
-```golang
+```go
 b := BayesMemory{}
 splitLocal := func(data string) []string {
 	return b.TokenizeSimple(data, "")
@@ -36,7 +36,7 @@ atestLocal("1967", "old")
 ```
 
 ## Try to test some duration data
-```golang
+```go
 b := BayesMemory{}
 splitLocal := func(data string) []string {
 	return b.TokenizeSimple(data, ":")
